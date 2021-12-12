@@ -1,1 +1,12 @@
-Fazendo mais commits pelo gitBash Terminal.
+# Fazendo mais commits pelo gitBash Terminal.
+
+## Entendendo o funcionamento dos grafos do git
+  1. Primeiro nós colocamos todos os arquivos dentro de uma espécie
+  de conteiner, o git etiqueta esse container gerando um hash e,
+  em seguida, fazemos o Commit, que é um comentário para cada 
+  modificação nos containers.
+
+  2. Para cada commit um nodo é criado na árvore do repositório.
+  
+  3. Essa árvore pode ser vista com o comando `git log --graph` ou
+  `git log --oneline --graph`
